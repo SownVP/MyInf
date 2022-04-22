@@ -12,10 +12,9 @@ html{
 .container{
     background: linear-gradient(to right top, #58aec3, #ccdde4);
     position: relative;
-    height: 1600px;
 }
 .container--content{
-    padding: 0 82px;
+    padding: 60px 82px;
 }
 .circle--first{
     content: "";
@@ -47,7 +46,6 @@ html{
     display: flex;
     align-items: center;
     position: relative;
-    margin-top: 60px;
 }
 .header__container{
     display: flex;
@@ -310,6 +308,11 @@ html{
     margin: 20px 0 2px 0;
     transition: transform ease-in .1s;
     will-change: transform;
+    box-shadow: 0 1px 2px 0 rgb(0 0 0 / 10%);
+}
+.about__item--link div img:hover{
+    transform: translateY(-1px);
+    box-shadow: 0 1px 20px 0 rgb(0 0 0 / 5%);
 }
 .about__item--link p{
     text-align: center;
