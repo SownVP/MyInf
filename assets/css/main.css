@@ -308,11 +308,11 @@ html{
     margin: 20px 0 2px 0;
     transition: transform ease-in .1s;
     will-change: transform;
-    box-shadow: 0 1px 2px 0 rgb(0 0 0 / 10%);
+    box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.1);
 }
 .about__item--link div img:hover{
     transform: translateY(-1px);
-    box-shadow: 0 1px 20px 0 rgb(0 0 0 / 5%);
+    box-shadow: 0 1px 20px 0 rgba(0, 0, 0, 0.05);
 }
 .about__item--link p{
     text-align: center;
@@ -353,6 +353,11 @@ html{
     display: flex;
     justify-content: center;
     align-items: center;
+    cursor: pointer;
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.3);
+}
+.arrow:hover{
+    opacity: 0.8;
 }
 .arrow i{
     font-size: 18px;
